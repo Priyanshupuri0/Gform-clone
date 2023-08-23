@@ -31,3 +31,10 @@
     height: 18px;
     width: 18px;
 }
+
+@media screen and (max-width: 768px) {
+    .ninth {
+        width: 100%;
+    }
+    
+}

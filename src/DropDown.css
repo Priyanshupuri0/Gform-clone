@@ -7,3 +7,9 @@
     box-shadow: 1px 1px 1px 1px 0.8 #888888;
     background-color: #fff;
 }
+@media screen and (max-width: 768px) {
+    .sixth {
+        width: 100%;
+    }
+}
+

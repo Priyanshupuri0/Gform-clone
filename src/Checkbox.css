@@ -17,3 +17,9 @@
     height: 18px;
     margin-right: 10px;
   }
+
+  @media screen and (max-width: 768px) {
+    .third {
+        width: 100%;
+    }
+  }

@@ -22,3 +22,25 @@
     align-items: center;
 }
 
+@media screen and (max-width: 768px) {
+    .footer {
+        width: 100%;
+    }
+    .wrn1 {
+        display: flex;
+        justify-content: center;
+    }
+    .wrn2 {
+        display: flex;
+        justify-content: center;
+    }
+    .logo {
+        cursor: pointer;
+        opacity: 0.6;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+    

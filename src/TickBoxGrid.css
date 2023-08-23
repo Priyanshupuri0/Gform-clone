@@ -1,0 +1,33 @@
+.ninth {
+    padding: 30px 30px 30px 30px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 45%;
+    box-shadow: 1px 1px 1px 1px 0.8 #888888;
+    background-color: #fff;
+}
+.heading {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.heading > .no-display {
+    visibility: hidden;
+}
+.tick-row1, .tick-row2, .tick-row3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.tick-row1, .tick-row2, .tick-row3 {
+    height: 3rem;
+    margin: 5px;
+    background-color: #f8f9fa;
+}
+.tick-row1 input[type='checkbox'], .tick-row2 input[type='checkbox'], .tick-row3 input[type='checkbox'] {
+    height: 18px;
+    width: 18px;
+}

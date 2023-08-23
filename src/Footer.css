@@ -1,0 +1,24 @@
+.footer {
+    width: 45%;
+    font-size: 12px;
+}
+.wrn1 {
+    display: flex;
+    justify-content: flex-start;
+}
+.wrn2 {
+    display: flex;
+    justify-content: center;
+}
+.wrn2 > p > a {
+    color: #000;
+}
+.logo {
+    cursor: pointer;
+    opacity: 0.6;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

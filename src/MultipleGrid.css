@@ -1,0 +1,32 @@
+.ninth {
+    padding: 30px 30px 30px 30px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 45%;
+    box-shadow: 1px 1px 1px 1px 0.8 #888888;
+    background-color: #fff;
+}
+.heading {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.heading > .no-display {
+    visibility: hidden;
+}
+.grid-row1, .grid-row2, .grid-row3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 5px;
+    height: 3rem;
+    background-color: #f8f9fa;
+}
+
+.grid-row1 input[type='radio'], .grid-row2 input[type='radio'], .grid-row3 input[type='radio'] {
+    height: 18px;
+    width: 18px;
+}

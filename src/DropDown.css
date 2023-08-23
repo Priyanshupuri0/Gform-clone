@@ -1,0 +1,9 @@
+.sixth {
+    padding: 30px 30px 10px 30px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 45%;
+    box-shadow: 1px 1px 1px 1px 0.8 #888888;
+    background-color: #fff;
+}

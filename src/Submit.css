@@ -1,0 +1,34 @@
+.last-function {
+    display: flex;
+    flex-direction: row;
+    width: 45%;
+    justify-content: space-between;
+    align-items: center;
+}
+.progress {
+    width: 15vw;
+    height: 10px;
+    background-color: #34a853;
+}
+.status {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.last-function > a {
+    text-decoration: none;
+    color: #673ab7;
+}
+.custom-button {
+    background-color: #673ab7;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    padding: 10px 20px;
+}
+.custom-button:hover {
+    background-color: #512da8;
+}

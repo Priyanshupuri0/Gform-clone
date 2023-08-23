@@ -1,0 +1,32 @@
+.eighth {
+    padding: 30px 30px 30px 30px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 45%;
+    box-shadow: 1px 1px 1px 1px 0.8 #888888;
+    background-color: #fff;
+}
+.scale {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: space-evenly;
+}
+.rating {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 2rem;
+}
+.label-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.label-container input[type="radio"] {
+    width: 18px;
+    height: 18px;
+}
